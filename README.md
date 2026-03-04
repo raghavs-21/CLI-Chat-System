@@ -1,5 +1,5 @@
 # C-CLI-Chat-System(Group Project)
-Robust command-line-interface(CLI) application built from scratch in C. Implements core programming concepts including file handling and string manipulation.This project was developed as a collaborative group effort for a Computer Science course at IIT.
+Robust command-line-interface(CLI) application built from scratch in C. Implements core programming concepts including file handling and string manipulation.This project was developed as a collaborative group effort for the course Introduction to Computer Science in the 1st Semester.
 ## Features:
 ### Identity and Security:
 **Registration and Authentication:** 
