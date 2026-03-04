@@ -19,11 +19,11 @@ void existing_username(char*);
 void check_password(char*);
 void setstatus(char*);
 void seestatus();
-const char * newchat="C:\\Users\\Srinivasan\\Documents\\Raghav\\IITJ\\Sem 1\\IC- Introduction to Computer Science\\Chat App project\\newchats.txt";
-const char * userdata="C:\\Users\\Srinivasan\\Documents\\Raghav\\IITJ\\Sem 1\\IC- Introduction to Computer Science\\Chat App project\\USER_DATA.txt";
-const char * chats="C:\\Users\\Srinivasan\\Documents\\Raghav\\IITJ\\Sem 1\\IC- Introduction to Computer Science\\Chat App project\\CHATS.txt";
-const char * temp="C:\\Users\\Srinivasan\\Documents\\Raghav\\IITJ\\Sem 1\\IC- Introduction to Computer Science\\Chat App project\\temp.txt";
-const char * status="C:\\Users\\Srinivasan\\Documents\\Raghav\\IITJ\\Sem 1\\IC- Introduction to Computer Science\\Chat App project\\status.txt";
+const char * newchat="newchats.txt";
+const char * userdata="USER_DATA.txt";
+const char * chats="CHATS.txt";
+const char * temp="temp.txt";
+const char * status="status.txt";
 int wct;
 int* wctptr = &wct;
 
@@ -605,4 +605,5 @@ void seestatus() {
 	if (flag == true) printf("%s\n", reqs);
 	if (flag == false) printf("\n NO STATUS AVAILABLE \n\n");
 	fclose(fptrs);
+
 }
